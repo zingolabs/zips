@@ -202,6 +202,10 @@ It is required that $\PRFsn{x}$ be collision-resistant across all $x$ --- i.e. i
 should not be feasible to find $(x, y) \neq (x', y')$ such that
 $\PRFsn{x}(y) = \PRFsn{x'}(y')$.
 
+\nathan{Self-Study: Do failure analysis if we \emph{lack} collision
+resistance for $\PRFaddr{x}$ and/or $\PRFpk{x}$. Otherwise we should
+update this last statement to more generally cover all these PRfs.}
+
 In \Zcash, the $\SHAName$ function is used to construct all three of these
 functions. The bits $\mathtt{00}$, $\mathtt{01}$ and $\mathtt{10}$ are included
 (respectively) within the blocks that are hashed, ensuring that the functions are
