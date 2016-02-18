@@ -561,6 +561,15 @@ for each $i \in \{1..\NOld\}$: $\h{i}$ = $\PRFpk{\SpendAuthorityPrivateOld{i}}(i
 
 for each $i \in \{1..\NNew\}$: $\cmNew{i}$ = $\CoinCommitment{\cNew{i}}$
 
+\nathan{Naming these is excellent. It takes a bit of squinting to match
+them to the paper though, so maybe explicitly naming which paper Pour
+substatement they map to would be useful?}
+
+\nathan{I'd prefer to place the Balance property (which is ``global'')
+first, then group the for-each assertions into those for input coins
+and those for output coins. Is there an order in this presentation that
+I'm missing?}
+
 \section{Encoding Addresses, Private keys, Coins, and Pour descriptions}
 
 This section describes how \Zcash encodes public addresses, private keys,
