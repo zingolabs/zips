@@ -63,7 +63,7 @@ Unified Viewing Key
 Address
   Either a Legacy Address or a Unified Address.
 Transfer Protocol
-  A specification of how a Sender can transfer assets to a Recipient.
+  A specification of how a Sender can transact with a Consumer.
   For example, the Transfer Protocol for a Sapling Receiver is the subset
   of the Zcash protocol required to successfully transfer ZEC using Sapling
   Spend/Output Transfers as specified in the Zcash Protocol Specification.
@@ -131,8 +131,8 @@ The goals for a Unified Address standard are as follows:
   range of potential future features. Some examples might include Layer 2
   features, cross-chain interoperability and bridging, and decentralized
   exchange.
-- The standard should work well for Zcash today and upcoming potential
-  upgrades, and also anticipate even broader use cases down the road such
+- The standard should work well for Zcash today and upcoming 
+  upgrades, and anticipate broader use cases down the road such
   as cross-chain functionality.
 
 
