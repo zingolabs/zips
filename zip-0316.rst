@@ -113,8 +113,7 @@ understanding and using Zcash.
 
 The goals for a Unified Address standard are as follows:
 
-- Simplify coordination between Recipients and Consumers by removing complexity
-  from negotiating Address types.
+- Simplify Consumer-Consumer Address-Type negotiations.
 - Provide a “bridging mechanism” to allow shielded wallets to successfully
   interact with conformant Transparent-Only wallets.
 - Allow older conformant wallets to interact seamlessly with newer wallets.
