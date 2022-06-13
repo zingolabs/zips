@@ -114,19 +114,19 @@ understanding and using Zcash.
 The goals for a Unified Address standard are as follows:
 
 - Simplify Consumer-Consumer Address-Type negotiations.
-- Provide a “bridging mechanism” to allow shielded wallets to successfully
-  interact with conformant Transparent-Only wallets.
-- Allow older conformant wallets to interact seamlessly with newer wallets.
-- Enable users of newer wallets to upgrade to newer transaction technologies
+- Provide a “bridging mechanism” to allow shielded Consumers to successfully
+  interact with conformant Transparent-Only Consumers.
+- Allow older conformant Consumers to interact seamlessly with newer Consumers.
+- Enable users of newer Consumers to upgrade to newer transaction technologies
   and/or pools while maintaining seamless interactions with counterparties
-  using older wallets.
-- Facilitate wallets to assume more sophisticated responsibilities for
-  shielding and/or migrating user funds.
-- Allow wallets to potentially develop new transfer mechanisms without
+  using older Consumers.
+- Facilitate assumption of more sophisticated responsibilities for
+  shielding and/or migrating user funds, by Consumers.
+- Allow Consumers to potentially develop new transfer mechanisms without
   underlying protocol changes.
 - Support abstractions corresponding to a Unified Address that provide the
   functionality of Full Viewing Keys and Incoming Viewing Keys.
-- Provide forward compatibility that is standard for all wallets across a
+- Provide forward compatibility that is standard for all Consumers across a
   range of potential future features. Some examples might include Layer 2
   features, cross-chain interoperability and bridging, and decentralized
   exchange.
