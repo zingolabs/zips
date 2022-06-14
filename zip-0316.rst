@@ -24,9 +24,16 @@ be interpreted as described in RFC 2119. [#RFC2119]_
 
 The terms below are to be interpreted as follows:
 
+FROM RECIPIENT:
+(such
+  as ZEC) or in the future potentially other transaction-based state changes
+
+FROM SENDER:
+, or other
+  consensus state side-effects defined in future
+
 Recipient
-  A wallet or other software that can receive transfers of assets (such
-  as ZEC) or in the future potentially other transaction-based state changes.
+  A wallet or other software that can receive transfers of assets FOOOP.
 Producer
   A wallet or other software that can create an Address (in which case it is
   normally also a Recipient) or a Viewing Key.
@@ -34,8 +41,7 @@ Consumer
   A wallet or other software that can make use of an Address or Viewing Key
   that it is given.
 Sender
-  A wallet or other software that can send transfers of assets, or other
-  consensus state side-effects defined in future. Senders are a subset of
+  A wallet or other software that can send transfers of assets FOOOP. Senders are a subset of
   Consumers.
 Receiver
   The necessary information to transfer an asset to a Recipient that generated
